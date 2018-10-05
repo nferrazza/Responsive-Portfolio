@@ -223,7 +223,7 @@ input[type=submit] {
     clear: both; }
 }
 
-}
+
 
 @media screen and (max-width: 768px) {
     .container { width: 100%;
@@ -233,13 +233,14 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 640px) {
-    .nav {
+    nav {
         float: center;
+        margin-right: 20%;
     }
     
     .container { width: 100%;
         max-width: 400px;
-        margin: 0 auto;
+        margin-left: 0 auto;
         clear: both; }
 }
 
